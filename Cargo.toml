@@ -1,0 +1,12 @@
+[package]
+name = "sovereign-pirtm"
+version = "0.1.0"
+edition = "2021"
+description = "PIRTM compiler IR: Prime-Indexed Recursive Tensor Mathematics"
+license = "MIT OR Apache-2.0"
+authors = ["SnapKitty Collective"]
+repository = "https://github.com/SNAPKITTYWEST/sovereign-pirtm"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+thiserror = "2"
